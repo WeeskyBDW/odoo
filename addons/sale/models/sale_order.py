@@ -1263,7 +1263,7 @@ class SaleOrder(models.Model):
         ]
         if self.validity_date and self.state in ['draft', 'sent']:
             formatted_date = format_date(self.env, self.validity_date, lang_code=lang_code)
-            subtitles.append(_("Expires on %(date)s", date=formatted_date))
+            subtitles.append(_("Expires on %s", formatted_date))
         render_context['subtitles'] = subtitles
         return render_context
 

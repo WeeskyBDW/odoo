@@ -1622,7 +1622,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale/models/sale_order.py:0
 #, python-format
-msgid "Expires on %(date)s"
+msgid "Expires on %s"
 msgstr ""
 
 #. module: sale
